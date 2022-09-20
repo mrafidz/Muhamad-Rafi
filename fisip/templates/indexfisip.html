@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h2>FAKULTAS ILMU SOSIAL DAN ILMU POLITIK</h2>
+<h3>Daftar Prodi</h3>
+    {% for prodifisip in prodifisip %}
+        <li>{{ prodifisip }}</li>
+    {% endfor %}
+{% endblock %}

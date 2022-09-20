@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+    <h2>FAKULTAS HUKUM</h2>
+    <h3>Daftar Prodi</h3>
+
+    {% for prodifh in prodifh %}
+        <li>{{ prodifh }}</li>
+    {% endfor %}
+
+{% endblock %}
